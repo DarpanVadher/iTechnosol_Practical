@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+	  "module": "commonjs",      // Use CommonJS module system for Node.js
+	  "esModuleInterop": true,   // Allow default imports from CommonJS modules
+	  "target": "ES2019",        // Adjust based on your Node.js version
+	  "strict": true,
+	  "skipLibCheck": true,      // Optional: Skips type checking for libraries
+	  "outDir": "./dist",        // Output directory for compiled files
+	  "rootDir": "./src",        // Source files directory
+	  "resolveJsonModule": true, // If you're importing JSON files
+	  "types": ["jest", "node"]  // Include Jest and Node types
+	},
+	"include": ["src/**/*.ts", "__test__/**/*.ts"],
+	"exclude": ["node_modules"]
+}
+  
